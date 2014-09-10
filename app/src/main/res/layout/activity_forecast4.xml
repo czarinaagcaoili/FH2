@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <Button
+            android:id="@+id/homepo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Home"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/fore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Forecast"
+            android:textSize="10dp" />
+
+
+        <Button
+            android:id="@+id/hot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Hotlines"
+            android:textSize="10dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sky Conditions" />
+
+
+            <TextView
+                android:id="@+id/textViewb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear :State of the sky when it is cloudless, totally clear or with a few small light clouds visible."/>
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Partly Cloudy: State of the sky is within 2-5 oktas total cloud cover or has between 30% to 70% cover of the celestial dome." />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mostly Cloudy: The sky is mostly covered with clouds but with possible brief periods of sunshine." />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cloudy: The sky is covered with clouds between 6 to 8 oktas or has more than 70% cloud cover." />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overcast: The sky is totally or completely covered with thick and opaque clouds, 8 oktas or around 100% cloud cover." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

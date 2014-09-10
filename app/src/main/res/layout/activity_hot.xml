@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <Button
+            android:id="@+id/homepo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Home"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/fore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Forecast"
+            android:textSize="10dp" />
+
+
+        <Button
+            android:id="@+id/hot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:text="Hotlines"
+            android:textSize="10dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textViewa12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hotlines"
+            <TextView
+                android:id="@+id/textViewc12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RED Cross Hotline: 911-5061 to 65" />
+
+
+            <TextView
+                android:id="@+id/textViewb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bureau of Fire Protection: 426-0219, 426-3812"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FH2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_forecasts">Forecasts</string>
+    <string name="title_activity_fore">Fore</string>
+    <string name="title_activity_forecast1">Forecast1</string>
+    <string name="title_activity_forecast2">Forecast2</string>
+    <string name="title_activity_forecast3">Forecast3</string>
+    <string name="title_activity_forecast4">Forecast4</string>
+    <string name="title_activity_hot">Hot</string>
+
+</resources>
